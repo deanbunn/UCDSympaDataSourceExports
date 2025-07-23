@@ -18,7 +18,10 @@ public class UCDIAMWorker {
 
     public UCDIAMWorker()
     {
+        //Set IAM Url
         iamURL = "https://iet-ws.ucdavis.edu/api/iam/";
+
+        //Pull IAM Key from Environment Variable. Use Another Secure Measure. This was for Demo Only
         iamKey = System.getenv("UCDIAM");
     }
 
